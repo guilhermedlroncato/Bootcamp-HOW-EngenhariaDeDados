@@ -2,7 +2,6 @@ import boto3
 import json
 from fake_web_events import Simulation
 
-
 # as credencias deverão ser adicionadas no arquivo ~/ .aws/credentials
 client = boto3.client(
     'firehose', 
